@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="#EEFFFFFF">
+
+        <TextView
+            android:id="@+id/tvTituloPunto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Punto de encuentro"
+            android:textColor="#17324D"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="6dp" />
+
+        <TextView
+            android:id="@+id/tvCoordenadasMapa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Latitud y longitud"
+            android:textColor="#344054"
+            android:textSize="14sp"
+            android:layout_marginBottom="8dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnMiUbicacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Activar mi ubicación"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+</FrameLayout>

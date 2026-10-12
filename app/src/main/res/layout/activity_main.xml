@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#F5F7FA">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AventuraTurística"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#17324D"
+        android:gravity="center"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Explora destinos y organiza tus viajes de aventura."
+        android:textSize="16sp"
+        android:textColor="#616B75"
+        android:gravity="center"
+        android:layout_marginBottom="28dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnNuevaReserva"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="52dp"
+        android:text="Registrar nueva reserva"
+        android:textAllCaps="false" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnMisReservas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="52dp"
+        android:layout_marginTop="12dp"
+        android:text="Mis reservas"
+        android:textAllCaps="false" />
+
+</LinearLayout>

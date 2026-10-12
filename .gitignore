@@ -1,0 +1,31 @@
+# Archivos de Android Studio
+*.iml
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# Gradle y archivos generados
+.gradle/
+**/build/
+.externalNativeBuild/
+.cxx/
+captures/
+
+# Configuración local de Android
+local.properties
+
+# Clave privada de Google Maps
+secrets.properties
+
+# Certificados y almacenes de claves privados
+*.jks
+*.keystore
+
+# Archivos de macOS
+.DS_Store
+
+# Configuración local de Android Studio
+.idea/
