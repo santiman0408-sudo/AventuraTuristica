@@ -159,7 +159,7 @@ El proyecto se gestiona con Git y GitHub. Los cambios deben registrarse mediante
 
 El proyecto AventuraTurística ha sido desarrollado en equipo como parte de la formación académica en Desarrollo de Aplicaciones Móviles.
 
-N.º Apellidos y nombres
+## N.º Apellidos y nombres
 
 1   Maria Alejandra Siri Vergara
 
@@ -167,18 +167,32 @@ N.º Apellidos y nombres
 
 3   Adrian Daniel Santisteban Manrique
 
-Información del proyecto
+## Información del proyecto
 
-Nombre del proyecto: AventuraTurística
+## Nombre del proyecto:
 
-Plataforma: Android
+AventuraTurística
 
-Lenguaje de programación: Kotlin
+## Plataforma:
 
-Entorno de desarrollo: Android Studio
+Android
 
-Base de datos local: SQLite
+## Lenguaje de programación: 
 
-Integración de mapas: Google Maps SDK for Android
+Kotlin
 
-Propósito: Gestionar reservas turísticas, consultar información de los viajes y visualizar los puntos de encuentro mediante mapas.
+## Entorno de desarrollo:
+
+Android Studio
+
+## Base de datos local: 
+
+SQLite
+
+## Integración de mapas: 
+
+Google Maps SDK for Android
+
+## Propósito: 
+
+Gestionar reservas turísticas, consultar información de los viajes y visualizar los puntos de encuentro mediante mapas.
